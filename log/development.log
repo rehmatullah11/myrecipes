@@ -1,0 +1,1118 @@
+Started GET "/" for 127.0.0.1 at 2023-01-19 02:21:06 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/rehmatullah/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/rehmatullah/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 831)
+Completed 200 OK in 17ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7224)
+
+
+  [1m[35m (35.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-01-19 06:26:05.549277"], ["updated_at", "2023-01-19 06:26:05.549277"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 06:27:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dev/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dev/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | Allocations: 831)
+Completed 200 OK in 14ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7222)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 06:51:07 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 280.4ms | Allocations: 100013)
+Completed 200 OK in 283ms (Views: 282.2ms | Allocations: 100971)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:24:27 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 7876)
+Completed 500 Internal Server Error in 32ms (Allocations: 8163)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:27:46 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 6030)
+Completed 500 Internal Server Error in 32ms (Allocations: 6301)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:28:26 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6658)
+Completed 500 Internal Server Error in 17ms (Allocations: 6930)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:28:56 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4071)
+Completed 500 Internal Server Error in 13ms (Allocations: 4342)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:34:06 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 7262)
+Completed 500 Internal Server Error in 60ms (Allocations: 7533)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:34:08 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2884)
+Completed 500 Internal Server Error in 12ms (Allocations: 3156)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:34:48 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 6009)
+Completed 500 Internal Server Error in 16ms (Allocations: 6280)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:36:03 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 6009)
+Completed 500 Internal Server Error in 40ms (Allocations: 6280)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:36:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 364)
+  Rendered layout layouts/application.html.erb (Duration: 961.9ms | Allocations: 165964)
+Completed 200 OK in 967ms (Views: 964.2ms | ActiveRecord: 0.0ms | Allocations: 170363)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:55:36 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 113)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 6849)
+Completed 200 OK in 22ms (Views: 20.6ms | Allocations: 7717)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:59:15 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6929)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 7797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 07:59:48 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6934)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 7823)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:00:01 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 6823)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 7690)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:00:22 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6929)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 7797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:08:18 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 122.7ms | Allocations: 48754)
+Completed 200 OK in 131ms (Views: 126.7ms | ActiveRecord: 0.0ms | Allocations: 53151)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:08:22 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6255)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6567)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:08:28 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 6255)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 6565)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:10:17 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 6980)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 7849)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:20:09 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 427)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 7138)
+Completed 200 OK in 30ms (Views: 28.6ms | Allocations: 8006)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:20:53 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 391)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 7118)
+Completed 200 OK in 16ms (Views: 14.8ms | Allocations: 7986)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:23:02 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 391)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 7120)
+Completed 200 OK in 16ms (Views: 15.7ms | Allocations: 7987)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:26:08 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 710.5ms | Allocations: 47556)
+Completed 200 OK in 712ms (Views: 711.3ms | Allocations: 47863)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:27:22 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 659.7ms | Allocations: 45277)
+Completed 200 OK in 661ms (Views: 660.5ms | Allocations: 45583)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:28:42 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 649.5ms | Allocations: 45362)
+Completed 200 OK in 651ms (Views: 650.1ms | Allocations: 45668)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:30:12 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 656.7ms | Allocations: 45804)
+Completed 200 OK in 658ms (Views: 657.7ms | Allocations: 46110)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:30:23 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 658.8ms | Allocations: 45353)
+Completed 200 OK in 660ms (Views: 659.6ms | Allocations: 45659)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:31:38 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 723.8ms | Allocations: 45352)
+Completed 200 OK in 726ms (Views: 724.9ms | Allocations: 45658)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:35:30 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 20329)
+Completed 200 OK in 34ms (Views: 33.0ms | Allocations: 20635)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:35:31 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6312)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 6618)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:37:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 135.5ms | Allocations: 61595)
+Completed 200 OK in 141ms (Views: 137.6ms | ActiveRecord: 0.0ms | Allocations: 65992)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:38:58 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 20213)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms | Allocations: 20527)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:39:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 104.7ms | Allocations: 60025)
+Completed 200 OK in 111ms (Views: 107.3ms | ActiveRecord: 0.0ms | Allocations: 64422)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:40:16 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 63.3ms | Allocations: 20215)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms | Allocations: 20529)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:41:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 108.8ms | Allocations: 61463)
+Completed 200 OK in 116ms (Views: 111.6ms | ActiveRecord: 0.0ms | Allocations: 65860)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:49:29 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 6303)
+Completed 200 OK in 22ms (Views: 20.6ms | Allocations: 6612)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:49:32 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6300)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 6606)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:59:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 103.4ms | Allocations: 48421)
+Completed 200 OK in 111ms (Views: 106.2ms | ActiveRecord: 0.0ms | Allocations: 52819)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:59:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 106.4ms | Allocations: 50171)
+Completed 200 OK in 114ms (Views: 109.0ms | ActiveRecord: 0.0ms | Allocations: 54568)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 08:59:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 99.1ms | Allocations: 50195)
+Completed 200 OK in 107ms (Views: 101.8ms | ActiveRecord: 0.0ms | Allocations: 54593)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:00:05 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 8103)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 8415)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:00:07 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 8107)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:01:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 102.4ms | Allocations: 50230)
+Completed 200 OK in 109ms (Views: 104.9ms | ActiveRecord: 0.0ms | Allocations: 54628)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:01:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 102.9ms | Allocations: 50299)
+Completed 200 OK in 110ms (Views: 105.5ms | ActiveRecord: 0.0ms | Allocations: 54697)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:01:34 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 8103)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8415)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:01:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 110.5ms | Allocations: 50604)
+Completed 200 OK in 117ms (Views: 113.1ms | ActiveRecord: 0.0ms | Allocations: 55001)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:01:44 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 8121)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 8433)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:03:01 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 106.0ms | Allocations: 50432)
+Completed 200 OK in 113ms (Views: 108.6ms | ActiveRecord: 0.0ms | Allocations: 54830)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:03:29 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 24990)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms | Allocations: 25304)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:03:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 134.5ms | Allocations: 63012)
+Completed 200 OK in 141ms (Views: 137.6ms | ActiveRecord: 0.0ms | Allocations: 67409)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:04:13 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 8698)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 9010)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:06:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 364)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 100.8ms | Allocations: 48430)
+Completed 200 OK in 109ms (Views: 103.8ms | ActiveRecord: 0.0ms | Allocations: 52827)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:06:54 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6129)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 6441)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:07:27 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 6590)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 7460)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:08:02 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6068)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 6378)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:08:36 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6956)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 7825)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:08:58 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 762.9ms | Allocations: 44738)
+Completed 200 OK in 764ms (Views: 763.7ms | ActiveRecord: 0.0ms | Allocations: 45048)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:09:01 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6129)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 6439)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:09:03 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 6123)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6433)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:09:41 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 7037)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 7906)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:10:15 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6988)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7858)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:13:57 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 404)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 7138)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 8005)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:18:09 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 197)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7281)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 8150)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:18:41 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 191)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 7171)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 8038)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 09:20:13 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 190)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 359)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 7176)
+Completed 200 OK in 46ms (Views: 44.5ms | Allocations: 8043)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:09:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 482)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 406)
+  Rendered layout layouts/application.html.erb (Duration: 150.2ms | Allocations: 48927)
+Completed 200 OK in 161ms (Views: 155.4ms | ActiveRecord: 0.0ms | Allocations: 53325)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:12:52 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 191)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 361)
+  Rendered layout layouts/application.html.erb (Duration: 680.6ms | Allocations: 50075)
+Completed 200 OK in 683ms (Views: 682.3ms | ActiveRecord: 0.0ms | Allocations: 50946)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:25:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 482)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 409)
+  Rendered layout layouts/application.html.erb (Duration: 840.2ms | Allocations: 105520)
+Completed 200 OK in 850ms (Views: 844.5ms | ActiveRecord: 0.0ms | Allocations: 109917)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:25:40 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 741.9ms | Allocations: 46070)
+Completed 200 OK in 743ms (Views: 742.8ms | ActiveRecord: 0.0ms | Allocations: 46382)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:29:19 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 782.1ms | Allocations: 47086)
+Completed 200 OK in 785ms (Views: 783.4ms | ActiveRecord: 0.0ms | Allocations: 47396)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:31:38 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 746.7ms | Allocations: 47806)
+Completed 200 OK in 748ms (Views: 747.4ms | Allocations: 48112)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:32:00 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 721.7ms | Allocations: 46872)
+Completed 200 OK in 723ms (Views: 722.3ms | Allocations: 47178)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:32:12 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 743.7ms | Allocations: 47328)
+Completed 200 OK in 745ms (Views: 744.3ms | Allocations: 47635)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:32:19 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 771.9ms | Allocations: 46906)
+Completed 200 OK in 773ms (Views: 772.6ms | Allocations: 47213)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:38:20 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 197)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 710.8ms | Allocations: 47692)
+Completed 200 OK in 714ms (Views: 713.5ms | Allocations: 48558)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:39:07 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 703.3ms | Allocations: 46923)
+Completed 200 OK in 705ms (Views: 704.3ms | Allocations: 47230)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:41:08 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 734.2ms | Allocations: 46915)
+Completed 200 OK in 736ms (Views: 735.0ms | Allocations: 47221)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:41:21 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 704.2ms | Allocations: 46910)
+Completed 200 OK in 706ms (Views: 705.0ms | Allocations: 47216)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:46:04 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 257)
+  Rendered layouts/_navigation.html.erb (Duration: 1.5ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 7447)
+Completed 200 OK in 65ms (Views: 63.5ms | Allocations: 8313)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:47:28 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 249)
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 7435)
+Completed 200 OK in 36ms (Views: 34.4ms | Allocations: 8302)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:51:18 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7698)
+Completed 200 OK in 23ms (Views: 21.5ms | Allocations: 8565)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:52:20 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 465)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 8032)
+Completed 200 OK in 23ms (Views: 22.4ms | Allocations: 8899)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:54:50 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 2.5ms | Allocations: 361)
+  Rendered layouts/_footer.html.erb (Duration: 2.3ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 8063)
+Completed 200 OK in 68ms (Views: 66.0ms | Allocations: 8931)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:55:37 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 8058)
+Completed 200 OK in 30ms (Views: 29.0ms | Allocations: 8926)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:56:07 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 8061)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 8928)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:57:42 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 741.7ms | Allocations: 49373)
+Completed 200 OK in 745ms (Views: 744.2ms | Allocations: 50240)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:58:28 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 248)
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 358)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 8064)
+Completed 200 OK in 17ms (Views: 16.9ms | Allocations: 8932)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:59:19 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 829.1ms | Allocations: 46985)
+Completed 200 OK in 831ms (Views: 830.3ms | Allocations: 47292)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 10:59:22 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 69)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 6609)
+Completed 200 OK in 59ms (Views: 57.1ms | Allocations: 6916)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 11:09:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 543)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 409)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 1101.5ms | Allocations: 107196)
+Completed 200 OK in 1111ms (Views: 1106.5ms | ActiveRecord: 0.0ms | Allocations: 111592)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 11:10:16 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 752.3ms | Allocations: 46489)
+Completed 200 OK in 754ms (Views: 753.2ms | ActiveRecord: 0.0ms | Allocations: 46801)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 12:08:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 543)
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 409)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 176.6ms | Allocations: 62729)
+Completed 200 OK in 186ms (Views: 179.9ms | ActiveRecord: 0.0ms | Allocations: 68122)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRecipes (20230119121003)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "recipes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230119121003"]]
+  [1m[36mTRANSACTION (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateChefs (20230119121429)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "chefs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230119121429"]]
+  [1m[36mTRANSACTION (11.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.3ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 12:47:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 25142)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms | Allocations: 25880)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 12:47:30 +0000
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 6640)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 6953)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddChefIdToRecipes (20230119134433)
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddChefIdToRecipes (20230119134433)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "recipes" ADD "chef_id" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230119134433"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "sabir@gmail.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (0.7ms)[0m  [1m[32mINSERT INTO "chefs" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Sabir"], ["email", "sabir@gmail.com"], ["created_at", "2023-01-19 13:53:22.289649"], ["updated_at", "2023-01-19 13:53:22.289649"]]
+  [1m[36mTRANSACTION (13.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mChef Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "chefs" WHERE LOWER("chefs"."email") = LOWER(?) LIMIT ?[0m  [["email", "awais@gmail.com"], ["LIMIT", 1]]
+  [1m[36mChef Create (0.7ms)[0m  [1m[32mINSERT INTO "chefs" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Awais"], ["email", "awais@gmail.com"], ["created_at", "2023-01-19 13:54:37.457675"], ["updated_at", "2023-01-19 13:54:37.457675"]]
+  [1m[36mTRANSACTION (11.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mChef Load (1.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs"[0m
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "chefs"[0m
+  [1m[36mChef Load (0.2ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.4ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mChef Load (0.1ms)[0m  [1m[34mSELECT "chefs".* FROM "chefs" ORDER BY "chefs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/recipes" for 127.0.0.1 at 2023-01-19 14:41:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 105)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 367)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 20846)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 21868)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2023-01-19 14:42:31 +0000
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  Rendered recipes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 110)
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 364)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 7949)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 8932)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-19 14:59:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 543)
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 409)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 151.3ms | Allocations: 65684)
+Completed 200 OK in 162ms (Views: 154.3ms | ActiveRecord: 0.0ms | Allocations: 71090)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2023-01-19 14:59:19 +0000
+Processing by RecipesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering recipes/index.html.erb within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/views/recipes/index.html.erb:4
+  Rendered recipes/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 855)
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 86)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7558)
+Completed 200 OK in 29ms (Views: 20.6ms | ActiveRecord: 0.2ms | Allocations: 11385)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
